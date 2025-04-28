@@ -1,42 +1,24 @@
-# ✨ Full Stack Realtime Chat App ✨
+# Fullstack Real-Time Chat App 🚀
 
-![Demo App](/frontend/public/screenshot-for-readme.png)
+A real-time chat application built with React.js, Node.js, Socket.io, and MongoDB.
 
-[Video Tutorial on Youtube](https://youtu.be/ntKkVrQqBYY)
+## Features
+- Realtime messaging
+- User authentication
+- Responsive design
+- Group and private chats
 
-Highlights:
+## Tech Stack
+- Frontend: React.js
+- Backend: Node.js, Express.js
+- WebSocket: Socket.io
+- Database: MongoDB
 
-- 🌟 Tech stack: MERN + Socket.io + TailwindCSS + Daisy UI
-- 🎃 Authentication && Authorization with JWT
-- 👾 Real-time messaging with Socket.io
-- 🚀 Online user status
-- 👌 Global state management with Zustand
-- 🐞 Error handling both on the server and on the client
-- ⭐ At the end Deployment like a pro for FREE!
-- ⏳ And much more!
+## Setup Instructions
+1. Clone the repository
+2. Install dependencies (`npm install`)
+3. Setup environment variables
+4. Run server and client
 
-### Setup .env file
-
-```js
-MONGODB_URI=...
-PORT=5001
-JWT_SECRET=...
-
-CLOUDINARY_CLOUD_NAME=...
-CLOUDINARY_API_KEY=...
-CLOUDINARY_API_SECRET=...
-
-NODE_ENV=development
-```
-
-### Build the app
-
-```shell
-npm run build
-```
-
-### Start the app
-
-```shell
-npm start
-```
+## Author
+Sujal Verma
